@@ -117,7 +117,7 @@ while True:
                                                     })
 
                 
-                time.sleep(5)
+                time.sleep(1200)
             else:
                 print("Logger Offline")
                 resp = requests.post(url_upload_local, data={'ph':ph_data,
@@ -147,7 +147,7 @@ while True:
                                                             'machine_code':machine_code
                                                     })
 
-                time.sleep(300)
+                time.sleep(1200)
         else:
             time.sleep(3)
     except:
